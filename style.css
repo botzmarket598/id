@@ -135,12 +135,28 @@ button:hover {
   background-color: #00a46c;
 }
 
+button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #666;
+}
+
 #result {
   margin-top: 16px;
   text-align: center;
   font-size: 13px;
   color: #00ffff;
   word-break: break-all;
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 12px;
+  margin-top: 4px;
+  min-height: 16px;
 }
 
 .footer {

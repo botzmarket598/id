@@ -45,11 +45,13 @@
     <form id="deployForm">
       <label>Nama Website</label>
       <input type="text" id="siteName" placeholder="contoh: mykerenweb" required>
+      <div class="error-message" id="domainError"></div>
 
       <label>Upload File HTML</label>
       <input type="file" id="htmlFile" accept=".html" required>
+      <div class="error-message" id="fileError"></div>
 
-      <button type="submit">Buat Sekarang</button>
+      <button type="submit" id="submitBtn">Buat Sekarang</button>
     </form>
 
     <div id="result"></div>
