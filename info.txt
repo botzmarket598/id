@@ -1,0 +1,6 @@
+✅ Version 2.0 Released!
+• New: Botnet support added
+• New: Track-IP feature
+• Fix: Proxy connection issues
+• Security: Improved encryption
+📅 Released: 2025-10-20
